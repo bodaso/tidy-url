@@ -14,18 +14,14 @@ You can use this automatically in the browser with the [userscript](https://gith
 -   [Browser](https://github.com/DrKain/tidy-url/wiki/Userscript) (userscript)
 -   [jsDelivr](https://github.com/DrKain/tidy-url/wiki/jsDelivr)
 
-## NodeJS
+## Get Started
 
+```sh
+npm install @bodaso/tidy-url
 ```
-npm install tidy-url
-```
-
-### Require
 
 ```js
-import { TidyURL } from 'tidy-url';
-// or
-const { TidyURL } = require('tidy-url');
+import { TidyURL } from '@bodaso/tidy-url';
 ```
 
 ### Usage

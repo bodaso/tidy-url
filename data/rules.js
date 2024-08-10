@@ -48,7 +48,7 @@ module.exports = [
             // MailChimp
             'mc_cid', 'mc_eid',
             // Other              
-            'ncid', 'cmpid', 'mbid',
+            'ncid', 'cmpid', 'mbid', 'cm_mmc',
             // Reddit Ads (https://github.com/DrKain/tidy-url/issues/31)
             'rdt_cid'
         ]
@@ -830,7 +830,7 @@ module.exports = [
     {
         name: 'lowes.com',
         match: /www\.lowes\.com/i,
-        rules: ['cm_mmc', 'ds_rl', 'gbraid']
+        rules: ['ds_rl', 'gbraid']
     },
     {
         name: 'stacks.wellcomecollection.org',
